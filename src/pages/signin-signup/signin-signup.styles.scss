@@ -1,0 +1,11 @@
+.signin-signup {
+    // width: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px auto;
+
+    @media only screen and (max-width: 960px) {
+        justify-content: center
+    }
+}
